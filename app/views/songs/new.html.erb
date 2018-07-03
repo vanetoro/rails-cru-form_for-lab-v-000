@@ -1,4 +1,5 @@
 <%= form_for(@song) do |f|%>
 <%= f.text_field :name%>
+<%= f.integer :'song[artist_id]'%>
 <%= f.submit%>
 <%end%>
